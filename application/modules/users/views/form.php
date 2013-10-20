@@ -53,6 +53,13 @@
                 </div>
 
                 <div class="control-group">
+                    <label class="control-label"><?php echo lang('company'); ?>: </label>
+                    <div class="controls">
+                        <input type="text" name="user_company" id="user_company" value="<?php echo $this->mdl_users->form_value('user_company'); ?>">
+                    </div>
+                </div>
+
+                <div class="control-group">
                     <label class="control-label"><?php echo lang('email_address'); ?>: </label>
                     <div class="controls">
                         <input type="text" name="user_email" id="user_email" value="<?php echo $this->mdl_users->form_value('user_email'); ?>">

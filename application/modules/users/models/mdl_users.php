@@ -74,6 +74,9 @@ class Mdl_Users extends Response_Model {
                 'label' => lang('verify_password'),
                 'rules' => 'required|matches[user_password]'
             ),
+            'user_company' => array(
+                'field' => 'user_company'
+            ),
             'user_address_1' => array(
                 'field' => 'user_address_1'
             ),
@@ -124,6 +127,9 @@ class Mdl_Users extends Response_Model {
                 'field' => 'user_name',
                 'label' => lang('name'),
                 'rules' => 'required'
+            ),
+            'user_company' => array(
+                'field' => 'user_company'
             ),
             'user_address_1' => array(
                 'field' => 'user_address_1'

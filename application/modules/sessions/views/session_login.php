@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>FusionInvoice</title>
+		<title><?php echo ($this->config->item('site_title') ? $this->config->item('site_title') : 'FusionInvoice') ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">

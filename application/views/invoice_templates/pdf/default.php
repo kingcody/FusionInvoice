@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title></title>
+        <title><?php echo ($this->config->item('site_title') ? $this->config->item('site_title') : 'FusionInvoice') ?></title>
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/default/css/style.css">
         
         <style>

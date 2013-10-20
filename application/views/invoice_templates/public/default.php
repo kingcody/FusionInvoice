@@ -103,7 +103,7 @@
                     <tr>
                         <td id="company-name">
                             <?php echo invoice_logo(); ?>
-                            <h2><?php echo $invoice->user_name; ?></h2>
+                            <h2><?php if ($invoice->user_company;) { echo $invoice->user_company; } else { echo $invoice->user_name; } ?></h2>
                             <p><?php if ($invoice->user_address_1) { echo $invoice->user_address_1 . '<br>'; } ?>
                                 <?php if ($invoice->user_address_2) { echo $invoice->user_address_2 . '<br>'; } ?>
                                 <?php if ($invoice->user_city) { echo $invoice->user_city . ' '; } ?>

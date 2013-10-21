@@ -1,0 +1,7 @@
+## Root .htaccess file
+## Uncomment the following lines to use urls without /index.php
+#RewriteEngine on
+## Rewrite request to include index.php
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule .* index.php/$1 [PT,L]

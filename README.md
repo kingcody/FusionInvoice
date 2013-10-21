@@ -19,10 +19,9 @@ FusionInvoice is built for freelancers and small businesses who need a simple, y
 
 For those of you comfortable with installing web applications, installing FusionInvoice should take 5 minutes or less.
 
-  1. Download and unzip the FusionInvoice full install package.
-  2. Create an empty database on your web server.
-  3. Upload the FusionInvoice files to your web server, either into its own subdirectory or into the public root of the web server.
-  4. Run the FusionInvoice installer from your web browser:
+  1. Create an empty database on your web server.
+  2. Clone the FusionInvoice repo to your web server, either into its own subdirectory or into the public root of the web server.
+  3. Run the FusionInvoice installer from your web browser:
     * If you uploaded the files into a subdirectory, access http://www.your-domain.com/the-subdirectory/index.php/setup
     * If you uploaded the files into the root, access http://www.your-domain.com/index.php/setup
 
